@@ -7,5 +7,6 @@ else
 	log="$(date +"%D %T" ) "$1" Failed"
 fi
 echo "$log"
+echo "$log" >> recordFileName_log
 }
 
