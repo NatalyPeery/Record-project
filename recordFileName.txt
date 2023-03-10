@@ -1,0 +1,6 @@
+RECORD_NAME, AMOUNT
+H,10
+Bkjhsdfoiufhd,2
+seloooo,30
+zkkjiii,4
+rfff,50
