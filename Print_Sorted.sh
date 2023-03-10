@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function print_sorted () {
+function Print_Sorted () {
     # Read the lines of the input file into an array
     readarray -t records  < ${1:-"recordFileName.txt"}
 
@@ -28,5 +28,5 @@ function print_sorted () {
 done
 }
 
-print_sorted
+Print_Sorted
 
