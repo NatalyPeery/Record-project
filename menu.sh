@@ -13,13 +13,13 @@ options=("Add_Record" "Delete Record" "Search" "Update Name" "Update Amount" "Pr
 COLUMNS=1
 select i in "${options[@]}" ; do
 case $i in
-"Add_Record" echo "Add";;
-"Delete Record"  echo "Delete Record";;
-"Search" Search ;;
-"Update Name"  echo "Update Name";;
-"Update Amount"  echo "Update Amount";;
-"Print Amount" echo "Print Amount";;
-"Print Sorted"  echo "Print Sorted";;
+"Add_Record") echo "Add";;
+"Delete Record")  echo "Delete Record";;
+"Search") Search ;;
+"Update Name")  echo "Update Name";;
+"Update Amount")  echo "Update Amount";;
+"Print Amount") echo "Print Amount";;
+"Print Sorted")  echo "Print Sorted";;
 "Exit") exit ;;
 *) echo "Invalid option please try again" ;;
 esac
