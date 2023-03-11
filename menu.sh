@@ -3,7 +3,7 @@
 #source Add_Record.sh
 #source Delete_Record.sh
 source Search.sh 
-#source Update_Name.sh
+source Update_Name.sh
 #source Update_Amount.sh
 #source Print_Amount.sh
 source Print_Sorted.sh
@@ -16,7 +16,7 @@ case $i in
 "Add_Record") echo "Add";;
 "Delete Record")  echo "Delete Record";;
 "Search") Search ;;
-"Update Name")  echo "Update Name";;
+"Update Name")  update_name ;;
 "Update Amount")  echo "Update Amount";;
 "Print Amount") echo "Print Amount";;
 "Print Sorted")  Print_Sorted ;;
