@@ -1,8 +1,6 @@
 #! /bin/bash
 source make_log.sh
 source if_exists.sh
-source Search.sh
-source update.sh
 source help_1_func.sh
 
 read -p "Enter Which Record: " record amount
