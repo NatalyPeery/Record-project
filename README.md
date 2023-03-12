@@ -29,14 +29,22 @@ Weekend group project, focused on working in synergy as a team with the Git tool
 The program allows the user to manage his records directory. 
 the user is promted to choose one of the following options:
 
-"Add_Record" in order to add a record to his directory 
+"Add_Record" in order to add a record to his directory
+  
 "Delete Record" in order to delete a record from his directory
+  
 "Search" in order to search for an entry in his directory
+  
 "Update Name" in order to revise entries in the directory
+  
 "Update Amount" in order to update the inventory count
+  
 "Print Amount" in order to print the amount of records 
+  
 "Print Sorted" in order to print the list of entries sorted 
+  
 "Exit" in order to exit the program
+  
  
 
 
