@@ -3,9 +3,10 @@ source make_log.sh
 source if_exists.sh
 source help_1_func.sh
 
+
+function Delete_Record(){
 read -p "Enter Which Record: " record amount
 #delete record
-function Delete_Record(){
 #Checks if the correct parameters have been entered
 if ! [[ $record == null || $amount -eq 0 ]]
 then
