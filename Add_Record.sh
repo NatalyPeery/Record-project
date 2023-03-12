@@ -18,7 +18,6 @@ then
         make_log ${FUNCNAME[0]} 0
     else
         echo "you allready have this record"
-        make_log ${FUNCNAME[0]} 1
         echo "If none of the selections matches your request please choose Quit to add to the directory"
         selection=$(get_menu $record) 
         if [[ $selection == "exit" ]]
