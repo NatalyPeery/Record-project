@@ -1,7 +1,7 @@
 #! /bin/bash
 
-#source Add_Record.sh
-#source Delete_Record.sh
+source Add_Record.sh
+source Delete_Record.sh
 source Search.sh 
 source Update_Name.sh
 source Update_Amount.sh
@@ -13,8 +13,8 @@ options=("Add_Record" "Delete Record" "Search" "Update Name" "Update Amount" "Pr
 COLUMNS=1
 select i in "${options[@]}" ; do
 case $i in
-"Add_Record") echo "Add";;
-"Delete Record")  echo "Delete Record";;
+"Add_Record") Add_Record;;
+"Delete Record")  Delete_Record;;
 "Search") Search ;;
 "Update Name")  update_name ;;
 "Update Amount")  update_amount;;
