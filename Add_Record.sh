@@ -7,7 +7,7 @@ source update.sh
 
 read -p "Enter New Record: " record amount
 # add record
-Add_Record(){
+function Add_Record(){
 if ! [[ $record == null || $amount -eq 0 ]]
 then
     if ! if_exists $record;
