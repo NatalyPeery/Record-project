@@ -4,7 +4,7 @@
 #source Delete_Record.sh
 source Search.sh 
 source Update_Name.sh
-#source Update_Amount.sh
+source Update_Amount.sh
 source Print_Amount.sh
 source Print_Sorted.sh
 
@@ -17,7 +17,7 @@ case $i in
 "Delete Record")  echo "Delete Record";;
 "Search") Search ;;
 "Update Name")  update_name ;;
-"Update Amount")  echo "Update Amount";;
+"Update Amount")  Print_Amount;;
 "Print Amount") Print_Amount;;
 "Print Sorted")  Print_Sorted ;;
 "Exit") exit ;;
