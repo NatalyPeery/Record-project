@@ -7,7 +7,7 @@ source help_1_func.sh
 
 read -p "Enter Which Record: " record amount
 #delete record
-Delete_Record(){
+function Delete_Record(){
 #Checks if the correct parameters have been entered
 if ! [[ $record == null || $amount -eq 0 ]]
 then
