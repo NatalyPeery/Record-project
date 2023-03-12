@@ -17,7 +17,7 @@ case $i in
 "Delete Record")  echo "Delete Record";;
 "Search") Search ;;
 "Update Name")  update_name ;;
-"Update Amount")  Print_Amount;;
+"Update Amount")  update_amount;;
 "Print Amount") Print_Amount;;
 "Print Sorted")  Print_Sorted ;;
 "Exit") exit ;;
