@@ -5,9 +5,10 @@ source help_1_func.sh
 
 
 
-read -p "Enter New Record: " record amount
+
 # add record
 function Add_Record(){
+read -p "Enter New Record: " record amount
 if ! [[ $record == null || $amount -eq 0 ]]
 then
     if ! if_exists $record;
