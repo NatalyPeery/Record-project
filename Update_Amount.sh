@@ -1,8 +1,10 @@
 #!/bin/bash
+#---------------------------------------------------------------------------calll functions-------------------------------------------------------------------------------------------
 source if_exists.sh
 source help_1_func.sh
 source make_log.sh
 
+#---------------------------------------------------------------------------update the amount of the alment --------------------------------------------------------------------------
 function update_amount() {
     read -p "Which record's amount you would like to change? " rec_name
     if if_exists $rec_name; then
